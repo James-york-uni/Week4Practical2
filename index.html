@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Week 4 Practical 2</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <nav>
+            </nav>
+            <header>
+                <h1>Week 4 Practical 2</h1>
+            </header>
+            <main>
+                <form name="form" action="" method="">
+                    <label for="name">Enter Your Name:</label>
+                    <input id="name" name="name" type="text" required>
+
+                    <label for="email">Enter Your Email:</label>
+                    <input id="email" name="email" type="text" required>
+
+                    <label for="phone">Enter Your Phone Number:</label>
+                    <input id="phone" name="phone" type="text"> 
+
+                    <fieldset>
+                        <legend>Do You Have Outside Space?</legend>
+                        <label for="yes space">Yes</label>
+                        <input id="yes space" name="space" type="radio" required>
+                        <label for="no space">No</label>
+                        <input id="no space" name="space" type="radio">
+                    </fieldset>
+                    
+
+                    <fieldset>
+                        <legend>Do You Have Children Either Living at Home or Regularly Visiting? </legend>
+                        <label for="yes child">Yes</label>
+                        <input id="yes child" name="child" type="radio" value="yes" required>
+                        <label for="no child">No</label>
+                        <input id="no child" name="child" type="radio" value="no">
+                    </fieldset>
+                    
+                    <div id="a">
+                        <label id="age-lable" for="age">Enter Your Child's Age:</label>
+                        <input id="age" name="chidren age" type="text">
+                    </div>
+                    
+
+                    <fieldset>
+                        <legend>How Many Pets Do You Have?</legend>
+                        <label for="none">0</label>
+                        <input id="none" name="pet" type="radio" value="no" required>
+                        <label for="1 pet">1</label>
+                        <input id="1 pet" name="pet" type="radio" value="yes">
+                        <label for="2 pets">2</label>
+                        <input id="2 pets" name="pet" type="radio" value="yes">
+                        <label for="3 pets">3</label>
+                        <input id="3 pets" name="pet" type="radio" value="yes">
+                        <label for="4+ pets">4+</label>
+                        <input id="4+ pets" name="pet" type="radio" value="yes"> 
+                    </fieldset>
+                    <div id="pt">
+                        <label for="pet type">Enter What Type of Pet You Have:</label>
+                        <input id="pet type" name="pet type" type="text" required>
+                    </div>
+
+                    <label for="submit">Submit</label>
+                    <input id="submit" name="submit" type="submit" value="Submit">
+                </form>
+            </main>
+            <footer>
+            </footer>
+        </div>
+        <script src = "main.js"> </script>
+    </body>
+</html>
